@@ -2,7 +2,7 @@
 
 exports.config = {
   capabilities: [
-    { browserName: 'chrome ' }
+    { browserName: 'chrome' }
     // If you want to use other browsers,
     // you may need local Selenium standalone server.
   ],
