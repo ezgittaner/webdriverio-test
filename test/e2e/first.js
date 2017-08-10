@@ -6,6 +6,6 @@ describe('First Test Group', () => {
     const title = browser.url('https://www.ciceksepeti.com/').getTitle()
     assert.equal(title, 'Çiçek Sepeti - Türkiye\'nin En Büyük Çiçek Sitesi')
    
-    console.log(browser.getText('.pagination-area'))
+    console.log(browser.getText('.last-page'));
   })
 })
